@@ -1,0 +1,366 @@
+
+@font-face {
+    font-family: Baiti;
+    src: url(./Fonts/msyi.ttf); 
+   }
+  body {
+      font-family: Microsoft - Yi - Baiti ;
+  }
+
+
+
+.bar1 {
+    width: 1004px;
+    height: 50px;
+    background-color: #4b92c4;
+    
+}
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: #e3e3e3;
+    margin: 7px 23px 0px 950px;
+    
+}
+.menu1 {
+    float: right;
+    z-index: 1;
+    margin: -5px 17px 7px 910px;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.background {
+    position: relative;
+    display: flex;
+    top: 0px;
+    width: 1004px;
+   
+}
+.text1 {
+    top:0;
+    position: absolute;
+    width: 438px;
+    height: 27px;
+    color: #ffffff;
+    font-family: Baiti;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    transform:translate(0, -50%);
+    margin: 158px 283px 484px 283px;
+    
+}
+.text2 {
+    top:0;
+    position: absolute;
+    width: 278px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Baiti;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: -1.33px;
+    margin: 200px 363px 450px 363px;
+    transform:translate(0, -50%);
+}
+
+
+
+
+.krug1, .krug2, .krug3, .krug4  {
+   
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    opacity: 0.5;
+    font-size: 27px;
+    font-family : Baiti;
+}
+
+.krug1 {
+    top: 415px;
+    right: 717px;
+    bottom: 104px;
+    left: 137px;
+}
+.krug2 {
+    top: 415px;
+    right: 525px;
+    bottom: 104px;
+    left: 329px;
+}
+.krug3 {
+    top: 415px;
+    right: 333px;
+    bottom: 104px;
+    left: 521px;
+}
+.krug4 {
+    top: 415px;
+    right: 137px;
+    bottom: 104px;
+    left: 713px;
+}
+
+.background2 {
+    position: relative;
+    height:454px ;
+    width: 1004px;
+}
+.text_left {
+position:absolute;
+    top: 65px;
+    right: 439px;
+    left: 384px;
+    width: 150px;
+    height: 54px;
+    color: #339fff;
+    font-family: Baiti;
+    font-size: 100px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: -4px;
+}
+    .text_out {
+        color: #339fff;
+    }
+    
+
+
+.text_right {
+position:absolute;
+    top: 83px;
+    right: 79px;
+    left: 579px;
+    width: 342px;
+    height: 175px;
+    color: #1493ff;
+    font-family: "Arial MT";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.67px;
+
+}
+.rectangle2 {
+    position:absolute;
+    top: 67px;
+    right: 427px;
+    left: 568px;
+}
+.form {
+    width: 1004px;
+    height: 594px;
+    background-color: #339fff;
+    position: relative;;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    font-family: Baiti;
+    
+    
+    
+   
+}
+.cont {
+        width: 169px;
+        height: 27px;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        margin: 72px 413px 0 418px;
+        
+  
+}
+.name { 
+    margin: 173px 827px 0 105px;
+    position:absolute;
+    width: 68px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    
+}
+.i1 {
+    margin: 216px 651px 0 101px;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    position:absolute;
+
+}
+.surname {
+    margin: 173px 508px 0px 388px;
+    position:absolute;
+    width: 68px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+
+.i2 {
+    margin: 216px 165px 0 387px;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    position:absolute;
+    
+}
+
+
+.email {
+    margin: 173px 263px 0px 675px;
+    position:absolute;
+    width: 68px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+
+
+.i3 {
+    margin: 216px 79px 0px 673px;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    position:absolute;
+}
+.mes {
+    margin: 284px 794px 0px 103px;
+    position:absolute;
+    width: 68px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+.area {
+    width: 820px;
+    height: 201px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position:absolute;
+    margin: 320px 80px 0px 100px;
+    border-radius: 10px;
+    resize: none;
+}
+.input {
+    width: 826px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #464646;
+    position:absolute;
+    margin: 484px 80px 0 100px;
+    font-size: 38px;
+    font-family: Baiti;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.background3 {
+    position: relative;
+    width: 1004px;
+    height: 613;
+    display: flex;
+}
+
+.text_l {
+    top: 62px;
+    right: 531px;
+    left: 55px;
+    width: 414px;
+    height: 235px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.67px;
+    position: absolute;
+    float: left;
+
+}
+
+.text_r {
+    top: 62px;
+    right: 46px;
+    left: 536px;
+    width: 414px;
+    height: 235px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.67px;
+    position: absolute;
+    text-align: end;
+
+}
+.footer_menu {
+    position: absolute;
+
+    top:550px;
+    font-size: 18px;
+    list-style-type: none;
+    
+    
+}
+.m1 {
+    color: #ffffff;
+    margin-left: 160px;
+    margin-right: 792px;
+    position:absolute;
+    text-decoration: none;
+    
+     
+}
+.m2 {
+    color: #ffffff;
+    margin-left: 236px;
+    margin-right: 689px;
+    position:absolute;
+    text-decoration: none;
+}
+.m3 {
+    color: #ffffff;
+    margin-left: 351px;
+    margin-right: 574px;
+    position:absolute;
+    text-decoration: none;
+}
+.m4 {
+    color: #ffffff;
+    margin-left: 474px;
+    margin-right: 451px;
+    position:absolute;
+    text-decoration: none;
+}
+.m5{
+    color: #ffffff;
+    margin-left: 604px;
+    margin-right: 321px;
+    position:absolute;
+    text-decoration: none;
+}
+.m6{
+    color: #ffffff;
+    margin-left: 725px;
+    margin-right: 200px;
+    position:absolute;
+    text-decoration: none;
+    
+}
